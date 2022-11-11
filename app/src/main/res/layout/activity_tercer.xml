@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".TercerActivity">
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="RegresarInicio"
+        android:text="@string/boton_SalirGaleria"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="337dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="26dp"
+        android:autoText="false"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Alimentos libres de gluten"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <TextView
+        android:id="@+id/textView12"
+
+        android:layout_width="368dp"
+        android:layout_height="529dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="Gluten, cereales, harina, proteína vegetal, Hidrolizado de proteína/prot. vegetal, malta, jarabe de malta
+Amiláceos, fécula, fibra, espesantes, sémola, proteína, extracto de malta, levadura, especias, aromas(por los soportes)
+Almidón
+Almidones modificados:
+E-1404 (Almidón oxidado).
+E-1412 (Fosfato de dialmidón).
+E-1414 (Fosfato acetilado de almidón).
+E-1422 (Adipato acetilado de dialmidón).
+E-1442 (Fosfato de hidroxipropil dialmidón).
+E-1410 (Fosfato de monoalmidón).
+E-1413 (Fosfato fosfatado de almidón).
+E-1420 (Almidón acetilado).
+E-1440 (Hidroxipropil almidón).
+E-1450 (Octenil succinato de almidón).
+En la compra se recomienda manejar la “Lista de Alimentos aptos para celíacos” elaborada por la Federación de Asociaciones de Celíacos de España (FACE). Las asociaciones para celíacos están para ayudar ante cualquier duda.
+
+Tenga precaución con los alimentos importados. Los criterios de contenido de gluten y los controles sanitarios pueden ser dispares según el país de origen al no existir una normativa europea que regule el contenido máximo de alimentos sin gluten.
+
+En las casas donde haya un celíaco se recomienda utilizar las harinas y el pan rallado sin gluten tanto para rebozar y empanar, como los copos de patata para espesar salsa. De este modo toda la familia, incluido el celíaco, disfrutarán de muchos alimentos que se preparen.
+
+También se recomienda disponer de un espacio para almacenar exclusivamente los alimentos especiales sin gluten y utilice siempre utensilios de cocina limpios. No use la misma cuchara para elaborar un plato que contiene gluten y otro que no lo tiene. Debe evitar freír alimentos sin gluten en aceites donde, previamente, se hayan frito productos con gluten.
+
+Es conveniente que las etiquetas de los productos especiales sin gluten estén siempre visibles. Se recomienda que una vez abierto el envase no se quite la etiqueta ni se vacíe su contenido en botes de cocina, ya que puede dar lugar a confusiones.
+
+Clasificación de alimentos
+Alimentos libres de gluten
+Por naturaleza no contienen gluten:
+
+Leche y derivados: quesos, quesos de untar sin adición de hierbas, requesón, nata, yogures naturales, natural azucarado, natural edulcorado, queso tipo “Petit Suisse”, cuajada.
+Todo tipo de carnes y vísceras frescas, congeladas y en conserva al natural.
+Embutidos: cecina, jamón serrano y jamón cocido de calidad extra.
+Pescados frescos y congelados sin rebozar, mariscos frescos y, pescados o mariscos en conserva al natural o en aceite.
+Huevos.
+Verduras, hortalizas y tubérculos.
+Frutas.
+Arroz, maíz, tapioca, así como sus derivados.
+Legumbres.
+Azúcar y miel.
+Aceites y mantequillas.
+Café en grano o molido, infusiones.
+Vinos y bebidas espumosas.
+Frutos secos crudos.
+Sal, vinagre de vino, especias en rama, en grano y todas las naturales."
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
