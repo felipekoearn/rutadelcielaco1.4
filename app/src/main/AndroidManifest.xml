@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.rutadelcielacoAPP.evaluacion1_android" >
+    package="com.rutadelcielacoAPK.evaluacion1_android" >
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -20,7 +20,7 @@
         android:theme="@style/Theme.Evaluacion1_Android"
         tools:targetApi="31" >
         <activity
-            android:name="com.rutadelcielacoAPP.evaluacion1_android.regristroActivity"
+            android:name="com.rutadelcielacoAPK.evaluacion1_android.regristroActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
@@ -32,27 +32,27 @@
             android:value="@string/googleApi" />
 
         <activity
-            android:name="com.rutadelcielacoAPP.evaluacion1_android.MapsActivity"
+            android:name="com.rutadelcielacoAPK.evaluacion1_android.MapsActivity"
             android:exported="false"
             android:label="@string/title_activity_maps" />
         <activity
-            android:name="com.rutadelcielacoAPP.evaluacion1_android.mainMap"
+            android:name="com.rutadelcielacoAPK.evaluacion1_android.mainMap"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.rutadelcielacoAPP.evaluacion1_android.cuartoActivity"
+            android:name="com.rutadelcielacoAPK.evaluacion1_android.cuartoActivity"
             android:exported="false" />
         <activity
-            android:name="com.rutadelcielacoAPP.evaluacion1_android.TercerActivity"
+            android:name="com.rutadelcielacoAPK.evaluacion1_android.TercerActivity"
             android:exported="false" />
         <activity
-            android:name="com.rutadelcielacoAPP.evaluacion1_android.SegundoActvity"
+            android:name="com.rutadelcielacoAPK.evaluacion1_android.SegundoActvity"
             android:exported="false" />
         <activity
-            android:name="com.rutadelcielacoAPP.evaluacion1_android.MainActivity"
+            android:name="com.rutadelcielacoAPK.evaluacion1_android.MainActivity"
             android:exported="true"
             android:theme="@style/SplashTheme" >
             <intent-filter>

@@ -1,4 +1,4 @@
-package com.rutadelcielacoAPP.evaluacion1_android;
+package com.rutadelcielacoAPK.evaluacion1_android;
 
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -21,7 +21,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.rutadelcielacoAPP.evaluacion1_android.databinding.ActivityMapsBinding;
+import com.rutadelcielacoAPK.evaluacion1_android.databinding.ActivityMapsBinding;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 

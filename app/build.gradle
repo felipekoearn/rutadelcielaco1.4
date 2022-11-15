@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.rutadelcielacoAPP.evaluacion1_android"
+        applicationId "com.rutadelcielacoAPK.evaluacion1_android"
         minSdk 23
         targetSdk 32
         versionCode 1
